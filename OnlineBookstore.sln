@@ -5,11 +5,11 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineBookstore.Api", "OnlineBookstore.Api\OnlineBookstore.Api.csproj", "{F02A42B6-F1A3-4D4D-A224-F8DE22258A66}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineBookstore.Domain", "SnelStart.OnlineBookstore.Domain\OnlineBookstore.Domain.csproj", "{3A6B2AB7-F98E-4C08-91A6-21EDDBDBD61B}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineBookstore.Infrastructure", "OnlineBookstore.Infrastructure\OnlineBookstore.Infrastructure.csproj", "{96E8569C-1FE9-47D3-8DD4-BDFBFF0522EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineBookStore.Test", "OnlineBookStore.Test\OnlineBookStore.Test.csproj", "{777BE39A-E022-413C-86F3-F24CC0A1F21F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineBookStore.Test", "OnlineBookStore.Test\OnlineBookStore.Test.csproj", "{777BE39A-E022-413C-86F3-F24CC0A1F21F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineBookstore.Domain", "OnlineBookstore.Domain\OnlineBookstore.Domain.csproj", "{447F3601-52D1-48CB-AA7D-451663660B04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,6 @@ Global
 		{F02A42B6-F1A3-4D4D-A224-F8DE22258A66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F02A42B6-F1A3-4D4D-A224-F8DE22258A66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F02A42B6-F1A3-4D4D-A224-F8DE22258A66}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3A6B2AB7-F98E-4C08-91A6-21EDDBDBD61B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3A6B2AB7-F98E-4C08-91A6-21EDDBDBD61B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3A6B2AB7-F98E-4C08-91A6-21EDDBDBD61B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3A6B2AB7-F98E-4C08-91A6-21EDDBDBD61B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{96E8569C-1FE9-47D3-8DD4-BDFBFF0522EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{96E8569C-1FE9-47D3-8DD4-BDFBFF0522EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96E8569C-1FE9-47D3-8DD4-BDFBFF0522EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{777BE39A-E022-413C-86F3-F24CC0A1F21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{777BE39A-E022-413C-86F3-F24CC0A1F21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{777BE39A-E022-413C-86F3-F24CC0A1F21F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{447F3601-52D1-48CB-AA7D-451663660B04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{447F3601-52D1-48CB-AA7D-451663660B04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{447F3601-52D1-48CB-AA7D-451663660B04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{447F3601-52D1-48CB-AA7D-451663660B04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

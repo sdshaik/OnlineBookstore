@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SnelStart.OnlineBookstore.Domain\OnlineBookstore.Domain.csproj" />
+    <ProjectReference Include="..\OnlineBookstore.Domain\OnlineBookstore.Domain.csproj" />
   </ItemGroup>
 
 </Project>
